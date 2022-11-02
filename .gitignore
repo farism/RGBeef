@@ -2,3 +2,4 @@ build
 recovery
 *.log
 *.dmp
+BeefSpace_User.toml

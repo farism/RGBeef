@@ -133,7 +133,7 @@ And of course, the ability to convert back into a `Color`:
 
 ```bf
 Color c1 = RGB(1, 0, 0).color;
-Color c1 = RGB(1, 0, 0).color;
+Color c2 = RGBA(1, 0, 0).color;
 ```
 
 Color Spaces also come with support for the conversion properties that exist on `Color`:
@@ -147,9 +147,10 @@ CMYK cmyk = RGBA(1, 0, 0, 0).cymk;
 And shorthand methods for parsing and manipulation:
 
 ```bf
-// These are equivalent
-RGB rgb = RGB.ParseHex("FF0000")..Lighten(0.5f); 
-CMYK cmyk = CMYK.ParseHtmlName("red)..Darken(0.5f); 
+RGB lightred = RGB(255, 0, 0)..Lighten(0.5); 
+
+if(let cmyk = CMYK.ParseHtmlName("red"))
+    cmyk.Darken(0.5); 
 ```
 
 [Check the tests for more](https://github.com/farism/RGBeef/src/Tests.bf)
