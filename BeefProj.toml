@@ -1,0 +1,7 @@
+FileVersion = 1
+
+[Project]
+Name = "rgbeef"
+TargetType = "BeefLib"
+StartupObject = "RGBeef.Program"
+DefaultNamespace = "RGBeef"

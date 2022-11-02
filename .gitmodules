@@ -1,0 +1,3 @@
+[submodule "libs/TinyRegex"]
+	path = libs/TinyRegex
+	url = https://github.com/disarray2077/TinyRegex.git

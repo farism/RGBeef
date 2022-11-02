@@ -1,0 +1,139 @@
+FileVersion = 1
+LastConfig = "Test"
+LastPlatform = "Win64"
+RecentFilesList = ["src\\Tests.bf", "src\\RGBeef.bf", "src\\Types.bf", "src\\Chroma.bf", "c:\\Program Files\\BeefLang\\BeefLibs\\corlib\\src\\Attribute.bf"]
+
+[MainWindow]
+X = 270
+Y = 278
+Width = 1959
+Height = 995
+ShowKind = "Normal"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 1943.0
+RequestedHeight = 400.0
+SizePriority = 1943.0
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 150.0
+RequestedHeight = 551.04
+SizePriority = 551.04
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 277.0
+RequestedHeight = 1117.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 115.0
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 1664.04
+RequestedHeight = 150.0
+SizePriority = 1664.04
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Tests.bf"
+TabWidth = 74.0
+Type = "SourceViewPanel"
+FilePath = "src\\Tests.bf"
+CursorPos = 1036
+VertPos = 502.4643
+ProjectName = "rgbeef"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "RGBeef.bf"
+TabWidth = 87.0
+Type = "SourceViewPanel"
+FilePath = "src\\RGBeef.bf"
+CursorPos = 2116
+ProjectName = "rgbeef"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 364.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 0.5011148
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Modules"
+TabWidth = 101.0
+Type = "ModulePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Memory"
+TabWidth = 99.0
+Type = "MemoryPanel"
+AutoResize = "Auto_Mul8"
+RequestedWidth = 300.0
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 86.0
+Type = "WatchPanel"
+Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Auto"
+TabWidth = 77.0
+Type = "AutoWatchPanel"
+Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 0.4988852
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 119.0
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Threads"
+TabWidth = 97.0
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 105.0
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 111.0
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.0
+Type = "OutputPanel"
+
+[[BookmarkFolders]]
+Title = ""
